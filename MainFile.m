@@ -38,7 +38,7 @@ for i=1:Nseq
   CF{i}=learnmapping_grbf(Ttrain{i}',P{i},cent);
 end
 
-%[PX]10368x5
+%10368x5
 B= zeros(prod(size(CF{1})),Nseq);
 
 for i=1:Nseq,
@@ -47,8 +47,8 @@ end;
 
 %decomposititon
 %style vectors are the rows of V
-%[PX]viewpoint bases are columus of US
-%[PX]category vectors are rows of V
+%viewpoint bases are columus of US
+%category vectors are rows of V
 [U,S,V]=svd(B,0);
 
  
