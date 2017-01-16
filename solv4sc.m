@@ -51,7 +51,7 @@ while(norm(w-w0)>0.00001 & count<100)
         x=[phi(Dst)'; ones(size(Po',2),1)' ; Po'];
 
         
-% PX: updata the weight for each style,
+% updata the weight for each style,
 %     less reconstruct error get more weight
 % compute new weights
 sigma=0.8; 
