@@ -1,6 +1,8 @@
 ## Head Pose Estimation by Instance Parameterization
 The demo codes for yaw estimation using Homeomorphic Manifold Analysis.
 
+![alt text](overview.png "overview")
+
 A unit circle to model the manifold of 1-D yaw variations. 
 
 For 3-D pose variations (pitch, yaw, roll), the circle is replaced by a 3-sphere.
